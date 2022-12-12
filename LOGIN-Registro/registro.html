@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Resgistro NewZap</title>
+    <link rel="stylesheet" href="./registro.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header><a href="../index.html">Registro <span>NewZap</span></a></header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Nombres</label>
+          <input type="text" placeholder="Ingresa tu nombre" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email</label>
+          <input type="text" placeholder="Correo electronico" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Teléfono</label>
+            <input type="number" placeholder="Numero de teléfono" required />
+          </div>
+          <div class="input-box">
+            <label>Fecha de Nacimiento</label>
+            <input type="date" placeholder="" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Género</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gendero" checked />
+              <label for="check-male">Masculino</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gendero" />
+              <label for="check-female">Femenino</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">Otro</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Dirección</label>
+          <input type="text" placeholder="Ingrese dirección" required />
+          <input type="text" placeholder="Ingrese segunda dirección" required />
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>País</option>
+                <option>Venezuela</option>
+                <option>Argentina</option>
+                <option>Perú</option>
+                <option>Chile</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Ciudad" required />
+          </div>
+          <div class="column">
+            <input type="text" placeholder="Región" required />
+            <input type="number" placeholder="Código postal" required />
+          </div>
+        </div>
+        <button>Registrarse</button>
+        <div class="login"><a href="./login.html">Iniciar Sesión</a></div>
+      </form>
+    </section>
+  </body>
+</html>
